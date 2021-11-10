@@ -1,0 +1,94 @@
+/* START FOR Header */
+.page-header{
+    border: 2px solid black;
+    width: 100%;
+    height: 90px;
+    background-color:rgb(217, 233, 235);
+}
+.page-header-logo{
+    float: left;
+    width: 85%;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.page-header-form{
+    margin-top: 35px;
+}
+.page-header-navigation{
+    border: 2px solid black;
+    width: 100%;
+    height: 45px;
+    margin-top: 3px;
+    background-color: rgb(187, 231, 245);
+
+}
+.page-header-navigation .Link1{
+    float: left;
+    margin-left: 208px;
+    margin-top: 16px;
+}
+.page-header-navigation .Link4{
+    float: left;
+    margin-left: 208px;
+    margin-top: 16px;
+}
+/* END For Header */
+
+.left_container{
+    border: 2px solid black;
+    width: 15%;
+    height: 400px;
+    float: left;
+    margin-top: 10px;
+}
+
+.mid_container{
+    border: 2px solid black;
+    width: 67%;
+    height: 400px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.right_container{
+    border: 2px solid black;
+    width: 15%;
+    height: 400px;
+    float: top;
+    /* float: right; */
+    margin-left: 85%;
+    margin-top: 10px;   
+}
+
+.post-img{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-left: 1%;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.mid_container img{
+    width: 100%;
+    height: 176px;
+    border-radius: 10px;
+    
+}
+.mid_container img:hover{
+    transform: scale(2,2);
+    transition: .3s ;
+    border-radius: 5px;
+}
+
+.page-footer{
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+.copyright{
+    text-align: center;
+}

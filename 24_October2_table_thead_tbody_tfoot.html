@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- START CSS -->
+    <style type="text/css" rel="stylesheet">
+    
+    /* for main table box */
+    .table1,.table2 {
+        width: auto;height: auto;
+        border: 3px solid rgb(236, 38, 31);
+    }
+    
+    /* for table1 header */
+    .table1 td ,.table1 th{
+
+        width: auto;height: auto;
+        border: 3px solid rgb(1, 7, 85);
+    }
+    /* for table2 */
+    .table2 td ,.table2 th{
+        width: auto;height: auto;
+        border: 2px solid rgb(39, 214, 33);
+
+    }
+
+    .table1 tfoot,.table2 tfoot{
+        color:blueviolet;
+        text-decoration: underline;
+    }
+    
+    .table1 tr:nth-child(even){
+        background: aqua;
+    }
+
+    .table1,.table2{
+        width: 100%;
+    }
+
+    </style>
+    <!-- END CSS -->
+
+
+</head>
+<body>
+    
+
+
+<!-- START TABLE 1 -->
+    <table class="table1"cellpadding="10px" cellspacing="5">
+        <!-- START table head -->
+        <thead>
+            <tr>
+            <th >Header1</th>
+            <th>Header2</th>
+            <th>Header3</th>
+            </tr>
+        </thead>
+        <!-- END table head -->
+
+
+        <!--START table body -->
+        <tbody>
+            <!-- 1 row -->
+            <tr>
+                    <td>Data1</td>
+                    <td>Data2</td>
+                    <td>Data3</td>
+            </tr>
+
+        <!-- 2 row -->
+        <tr>
+            <td>Data1</td>
+            <td>Data2</td>
+            <td>Data3</td>
+        </tr>
+        </tbody>
+        <!-- END table body -->
+        
+
+        <!--START table foot -->
+        <tfoot>
+            <tr>
+                <td>Footer1</td>
+                <td>Footer2</td>
+                <td>Footer3</td>
+
+            </tr>
+        </tfoot>
+        <!-- END table foot -->
+        
+>
+    </table>
+<!-- END TABLE 1 -->
+
+
+
+
+<!-- br used for spacing -->
+<br>
+<br>
+<!-- br used for spacing -->
+
+
+
+
+<!-- START TABLE 2 -->
+<table class="table2" cellpadding="10px" cellspacing="0">
+    <!-- START table head -->
+    <thead>
+
+        <tr>
+        <th colspan="2">Header1</th>
+        <th>Header2</th>
+        </tr>
+
+    </thead>
+    <!-- END table head -->
+
+    <!--START table body -->
+    <tbody>
+        <!-- row 1 -->
+        <tr>
+            <td rowspan="2">Data1</td>
+            <td>Data2</td>
+            <td>Data3</td>
+        </tr>
+
+        <!-- row 2 -->
+        <tr>
+            <td>Data1</td>
+            <td>Data2</td>
+        </tr>
+    </tbody>
+
+    <!-- END table body -->
+
+    <!--START table foot -->
+    <tfoot>
+        <tr>
+            <td>Footer1</td>
+            <td>Footer2</td>
+            <td>Footer3</td>
+
+        </tr>
+    </tfoot>
+    <!-- END table foot -->
+    
+
+</table>
+<!-- END TABLE 2 -->
+
+
+
+
+
+</body>
+</html>

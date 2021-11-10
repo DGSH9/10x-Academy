@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Start of CSS -->
+    <style type="text/css" rel="stylesheet">
+    .container,.header{
+        width: 100%;
+        margin: 1px;
+        display: inline-block;
+        border: 1px solid gray;
+    }   
+    .container,.sidebar,.content{
+        margin: 10px;
+        border: 1px solid gray;
+    }
+    #text-label{
+        color:red;
+        font-size: 20px;
+    }
+    .header,.footer{
+        min-height: 50px;
+        background:goldenrod;
+        padding: 5px 0px;
+    }
+    .sidebar{
+
+        width: 150px;
+        vertical-align: top;
+    }
+    .content,.sidebar{
+        display: inline-block;
+    }
+    .content{
+        width:67% ;
+    }
+    .main-menu li{
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    </style>
+    <!-- END of CSS -->
+
+    
+</head>
+<body>
+
+    <div class="container">
+        <!-- start header  -->
+        <header class="header">
+            <ul class="main-menu">
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+                <li>Menu 4</li>
+                <li>Menu 5</li>
+            </ul>
+
+        </header>
+        <!-- end header -->
+
+
+
+        <!-- start section -->
+        <section class="sidebar">
+
+            <ul>
+                <li>Sub Menu 1</li>
+                <li>Sub Menu 2</li>
+                <li>Sub Menu 3</li>
+                <li>Sub Menu 4</li>
+                <li>Sub Menu 5</li>
+            </ul>
+
+        </section>
+
+
+        <section class="content">
+            <img alt="Image link is not correct" src="https://www.w3schools.com/images/w3lynx_200.png">
+            <label id="text-label">SPAN DATA:</label>
+            <!-- em used for italic -->
+            <em>Image from w3school</em>    
+        </section>
+        <!-- end section -->
+
+
+
+        <!-- start footer -->
+        <footer class="footer">
+            <span> My page Footer</span>
+        </footer>
+        <!-- end footer -->
+        
+    </div>
+
+</body>
+</html>

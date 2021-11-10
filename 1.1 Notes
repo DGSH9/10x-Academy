@@ -1,0 +1,160 @@
+==>Hypertext Markup Language(HTML)
+        ->It is the language for specifying the content of webpages
+        ->hypertext refer to the fact that web pages are more than just text
+        ->can contain multimedia,provide link for jumping within & beyond
+
+
+
+
+
+*********************************************** STRUCTURE *********************************************
+
+==>Document Structure(DOM==Document Object Models)
+        ->Doctype       == (tells the browser how to interpret the webpages)
+        ->meta          == metadata (informal,it contains information)
+        ->title         == its just a title
+        ->link          == Referance to other file or structured media 
+        
+        ->style         == CSS Rule(for css file)
+        ->script        == SCRIPT  (for javascript file)
+
+
+
+==>HTML Advanced Features
+        --HTML layout
+        --HTML Fonts
+        --HTML Styles
+        --HTML Head
+        --HTML meta             -->two type-public web and intranet (meta tag very useful,for public use application)
+        --HTML URLS
+        --HTML Scripts
+        --HTMLWeb Server
+
+==>Viewport
+        --the content which we are seeing at a that time which is Viewport
+        
+
+
+
+
+
+
+
+*********************************************** ELEMENTS *********************************************
+==>all under style are element
+        -- every tag are element
+        -- div are element
+
+        example:-
+                <style type="text/css" rel=stylesheet>
+                        p{
+                        color:blue;
+                        text-align: center;
+                        }
+                </style>
+
+
+
+
+
+
+
+*********************************************** Attributes *********************************************
+==> data-sample consider as Attributes and used in html and css
+        example:-
+                <h2 data-sample="hi this is sample data"> Hi this h2 tag</h2>
+        -- title
+        -- class
+        -- data-sample
+        
+
+
+
+
+==>Container tag
+        -- who  ever hold the data comes under container tag
+        -- have internal code
+        example:-
+                <h2 data-sample="hi this is sample data"> Hi this h2 tag</h2>
+                --h2 is container tag
+                --p is container tag
+                --div is container tag
+
+
+==>List
+        -- ul =unordered List   (. and . )
+        -- ol =ordered List     (1,2,3...)
+        -- dl =description list
+
+
+==>br
+        -- br use for spacing
+
+==>Internal style
+        -- use in Attributes section 
+
+
+==>display:inline-block
+        -- to add in same line inline
+
+==>Usage of div tag and table tag
+        -- div is a floating content
+                -- floating :whatever the data you give inside it,it gonna automatically stretched based on children element
+        -- width and height are expanding fo parent div 
+
+
+
+
+
+
+
+
+*********************************************** TABLE *********************************************
+==>table
+        -- tr :table row  (create table row under table container tag)
+        -- td :table data (inside table row)
+
+==>thead
+        --tr :
+        --th :
+
+==>tbody
+        --tr :
+        --td :
+
+==>tfoot
+        --tr
+        --td
+
+
+==>cellpadding="10"
+        -- comes under table Attributes 
+
+==>cellspacing="10"
+        -- comes under table Attributes
+
+==>colspan="2"
+        -- under table Head
+        -- delete last thead
+
+==>rowspan="2"
+        --used for merging
+        --delete last td for second row
+
+
+
+        
+
+
+
+*********************************************** FORM *********************************************
+==>    <a href="https://www.google.com" target="_parent">Go to Google</a>
+
+==>Form Attributes List      
+        -- action :Good developer put API
+        -- target :_parent,_Self,_blank ->what response you need to do......stay in current page or open in new tab
+        -- method :which type of API call you are doing (POST/PUT/GET/DELETE)   -->CRUD operation
+                  :which type of request you are doing
+
+
+==>wireframing,Figma,how we create wireframe,adobe xd

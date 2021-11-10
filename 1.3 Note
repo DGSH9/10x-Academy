@@ -1,0 +1,9 @@
+==>title
+    -- its a hover
+    -- example: <p title="hey m title">Sample Content</p>
+
+==>Every browser have their own stylesheet untill or unless you overwrite the something 
+
+==>Box Model
+    -- its a entire structure of any element which
+    -- contains margin,border,padding,width and height
