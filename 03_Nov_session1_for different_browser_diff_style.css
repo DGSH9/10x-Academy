@@ -1,0 +1,9 @@
+.main{
+    border: 1px solid black;
+    width: 400px;
+    margin: 150px 0px 20px 400px;
+    height: 200px;
+    color: red;
+    text-align: center;
+    padding: 70px;
+}

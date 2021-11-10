@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css" rel="stylesheet">
+
+        /* START CSS */
+        .wraper{
+            display: grid;
+            grid-template-columns: 50px 50px;
+            grid-auto-rows: 100px;
+            gap: 5px;
+            row-gap: 30px;
+        }
+        .wraper div{
+            border: 1px solid black;
+        }
+        .box1{
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        /* END CSS */
+
+    </style>
+
+</head>
+<body>
+
+    <div class="wraper">
+        <div class="box box1"><a href="">one</a></div>
+        <div class="box box2"><a href="">Two</a></div>
+        <div class="box box3"><a href="">Three</a></div>
+        <div class="box box4"><a href="">Four</a></div>
+        <div class="box box5"><a href="">Five</a></div>
+    </div>
+
+</body>
+</html>

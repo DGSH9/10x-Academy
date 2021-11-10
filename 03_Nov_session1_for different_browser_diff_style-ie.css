@@ -1,0 +1,14 @@
+@supports(-ms-flex-item-align: auto){
+    p{
+        color: red;
+    }
+    body{
+        font-family: Segoe 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.00dpcm){
+    p{
+        color: blue;
+    }
+}

@@ -1,0 +1,49 @@
+==>What is CSS
+    -- mechanism the style of web document without compromising its structure
+
+==>CSS vs HTML
+    -- what we can do with CSS that we cant do with HTML
+            ->control of background
+            ->set font size to exact size you want 
+            ->Precise Positioning
+
+
+
+
+*********************************************** How to write CSS ****************************************************
+
+
+==>Selector
+    --HTMl element tags(example:-p,h2,body,img,table)
+==>Property(example:-color,font-size)
+==>Value(example:-red,14pt)
+
+
+
+
+*********************************************** Three Ways TO Include CSS ****************************************************
+1. Local(Inline)                    =>Place Inside the tag(<p style="color:red")
+2. Global(Embedded, or Internal)    =>Internal Style sheet(In header <style></style>)
+3. Linked(External)                 =>Styles are saved in a separate file with dgsh.css
+
+
+
+
+
+
+
+
+
+
+
+
+*********************************************** Color Code In CSS ****************************************************
+==>rgba
+    -- red,green,blue,transparency
+    -- example:-rgb(150,0,0,0.6)
+
+==>hsla
+    -- degree,saturation,lightness,transparency
+    -- example:-hsla(235,50%,50%,0.3)
+
+    

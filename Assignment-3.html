@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css" rel="stylesheet">
+
+        /* START CSS */
+        .container1{
+            display: flex;
+            background: rgb(109, 112, 112);
+            border: 1px solid black;
+
+            flex-direction:row;
+            padding: 10px;
+            flex-flow:row wrap;
+            justify-content: space-between;
+        }
+        .item{
+            flex-basis: 25%;
+            margin: 10px;
+            text-align: center;
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }
+        .container-title{
+            margin-top: 80px;
+        }
+        .lower_part{
+            border: 1px solid rgb(226, 204, 204);
+            width: 100%;
+            height: 500px;
+            margin-top: 20px;
+            background:violet;
+        }
+        * {
+        box-sizing: border-box;
+        }
+        .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 600px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+
+        .left_part{
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .right_part{
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .left_content .site{
+            margin: 28px 50px 0px 50px;
+        }
+
+
+        .right_content{
+            text-align: center;
+
+        }
+        /* END CSS */
+    </style>
+</head>
+<body>
+    <!-- STARt UPER PART -->
+    <div class="container1">
+        <div class="item">
+            <div class="container-img">
+                <img src="https://images.pexels.com/photos/7245615/pexels-photo-7245615.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="container-title">
+                <h1>Website Title</h1>
+            </div>
+        </div>
+    </div>
+    <!-- END UPER PART -->
+
+    
+    <!-- START LOWER PART -->
+    <div class="lower_part">
+        <div class="row">
+            <!-- left part -->
+            <div class="column" style="background-color:rgb(168, 207, 233);">
+                <div class="left_part">
+                    <h2>FAVOURITE SEARCH ENGINES</h2>
+                </div>
+                <div class="left_content">
+                    <ul>
+                        <div class="site"><li><a target="_blank" href="https://www.google.com/">Google</a></li></div>
+                        <div class="site"><li><a target="_blank" href="https://www.bing.com/">Bing</a></li></div>
+                        <div class="site"><li><a target="_blank" href="https://in.search.yahoo.com/">Yahoo</a></li></div>
+                        <div class="site"><li><a target="_blank" href="http://www.baidu.com/">Baidu</a></li></div>
+                        <div class="site"><li><a target="_blank" href="https://www.ask.com/">Ask</a></li></div>
+                        <div class="site"><li><a target="_blank" href="https://www.excite.com/">Excite</a></li></div>
+                        <div class="site"><li><a target="_blank" href="https://duckduckgo.com/">DuckDuckGo</a></li></div>
+                        <div class="site"><li><a target="_blank" href="https://www.aol.com/">AOL</a></li></div>
+                    </ul>
+                </div>
+            </div>
+            <!-- right part -->
+            <div class="column" style="background-color:#bbb;">
+                <div class="right_part">
+                    <h2>FREQUENTLY VISIT</h2>
+                </div>
+
+                <div class="right_content">
+                    <div class="abc2"><h3>10x Academy</h3></div>
+                    <div class="abc2"><h3>LeetCode</h3></div>
+                    <div class="abc2"><h3>Hack The Box</h3></div>
+                    <div class="abc2"><h3>YouTube</h3></div>
+
+                    <div class="abc2"><h3>Cybrary</h3></div>
+                    <div class="abc2"><h3>Pentester Academy</h3></div>
+                    <div class="abc2"><h3>GeeksforGeeks</h3></div>
+                    <div class="abc2"><h3>Google</h3></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END LOWER PART -->
+
+</body>
+</html>
