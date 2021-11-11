@@ -1,0 +1,12 @@
+k=int(input())
+n=int(input())
+arr = []
+for i in range(n):
+	ele = int(input())
+	arr.append(ele)	
+ans=-1
+for j in range(len(arr)):
+    if(arr[j]==k):
+        ans=j
+        break
+print(ans)

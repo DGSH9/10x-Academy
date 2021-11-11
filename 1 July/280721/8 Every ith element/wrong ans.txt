@@ -1,0 +1,11 @@
+arr = []
+n = int(input())
+for i in range(0, n):
+	ele = int(input())
+	arr.append(ele)
+sum=0
+z=int(input())
+for i in range(len(arr)):
+    if((i+1)%z==0):
+        sum+=arr[i]
+print(sum)

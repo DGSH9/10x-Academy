@@ -1,0 +1,17 @@
+n = int(input())
+given_list = []
+for i in range(n):
+    value_list = int(input())
+    given_list.append(value_list)
+
+sorted_list = []
+while(len(given_list) > 0):
+    min_value = given_list[0]
+    min_index = 0
+    for i in range(len(given_list)):
+        if(given_list[i] < min_value):
+            min_value = given_list[i]
+            min_index = i
+    sorted_list.append(min_value)
+    given_list.remove(min_value)
+print((sorted_list[0])*(sorted_list[len(sorted_list)-1]))

@@ -1,0 +1,9 @@
+givenNumber=int(input())
+count=0
+for i in range(1,givenNumber+1):
+    x=int(input())
+    d1=x%10
+    d2=x//10
+    if(d1+d2)>=(d1*d2):
+        count=count+1       
+print(count)

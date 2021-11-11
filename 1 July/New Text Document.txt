@@ -1,0 +1,6 @@
+Tarnary operator
+
+
+a = int(input())
+b = int(input())
+print(2*(a+b) if (a > 0 and b > 0) else 0)

@@ -1,0 +1,8 @@
+# your code goes here
+givenNumber = int(input())
+reverseNumer = 0
+while(givenNumber > 0):
+    lastDigit = givenNumber % 10
+    reverseNumer = reverseNumer * 10 + lastDigit
+    givenNumber = givenNumber // 10
+print(reverseNumer)

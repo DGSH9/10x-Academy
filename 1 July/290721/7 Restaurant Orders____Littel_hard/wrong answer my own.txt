@@ -1,0 +1,36 @@
+n = int(input())
+tableNumber = int(input())
+list1 = []
+list2 = []
+
+for i in range(n):
+	x=int(input())
+	list1.append(x)
+
+for i in range(n):
+	y=int(input())
+	list2.append(x)
+
+sorted_list=[]
+while(len(list2)>0):
+    min_value=list2[0]
+    min_index=0
+    for i in range(len(list2)):
+        if(list2[i]<min_value):
+            min_value=list2[i]
+            min_index=i
+    sorted_list.append(min_value)
+    list2.remove(min_value)
+
+last3 = sorted_list[len(sorted_list)-1]
+last4 = sorted_list[len(sorted_list)-2]
+
+flag1 = 0
+flag2 = 0
+for i in range(1,len(list2)+1):
+	if(list2[i]==last3):
+		flag1+=i
+	elif(list2[i]==last4):
+		flag2+=i
+print(flag1)
+print(flag2)

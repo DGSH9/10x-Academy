@@ -1,0 +1,13 @@
+write a function that take a  non-empty array of distinct integer and an integer that represent a target sum.We have to find that
+in the input array if 
+
+
+Input:
+non empty array = [3, 5, -4,8, 11, -1, 6]
+10 = target sum
+
+
+Output:
+[11, -1]
+
+Algorithm:

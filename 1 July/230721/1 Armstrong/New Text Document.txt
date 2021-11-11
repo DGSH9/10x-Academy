@@ -1,0 +1,13 @@
+# your code goes here
+number = int(input())
+
+reqNumber = number
+sum = 0
+while(number > 0):
+    lastDigit = number % 10
+    sum = sum+(lastDigit**3)
+    number = number//10
+if(reqNumber == sum):
+    print("Yes")
+else:
+    print("No")

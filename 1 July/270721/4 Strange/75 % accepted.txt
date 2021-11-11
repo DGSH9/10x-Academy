@@ -1,0 +1,14 @@
+n=int(input())
+count=0
+for i in range(1,n+1):
+    givenNumber = int(input())
+    sumDigits = 0
+    productDigit = 1
+    while givenNumber > 0:
+        lastDigit = givenNumber % 10
+        sumDigits = sumDigits+lastDigit
+        productDigit = productDigit*lastDigit
+        givenNumber = givenNumber//10
+    if(sumDigits>=productDigit):
+        count+=1
+print(count)

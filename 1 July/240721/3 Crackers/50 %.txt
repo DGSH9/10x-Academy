@@ -1,0 +1,6 @@
+N, K = map(int, input().split())
+if(N > K):
+    minDiff = N//K
+    maxDiff = minDiff+1
+    ans = maxDiff-minDiff
+print(ans)

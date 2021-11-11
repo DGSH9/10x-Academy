@@ -1,0 +1,43 @@
+def maxWaterTrap(arr, n):
+    if n <= 2:
+        return 0
+
+    lMax = [0] * n
+    rMax = [0] * n
+
+    m = -1
+
+    for i in range(1, n):
+        if m < arr[i - 1]:
+            m = arr[i - 1]
+
+        lMax[i] = m
+
+    m = -1
+
+    for j in range(n - 2, -1, -1):
+        if m < arr[j + 1]:
+            m = arr[j + 1]
+
+        rMax[j] = m
+
+    print(lMax)
+    print(rMax)
+
+    res = 0
+
+    for k in range(1, n - 1):
+        minH = min(lMax[k], rMax[k])
+
+        if arr[k] < minH:
+            res += minH - arr[k]
+
+    return res
+
+
+arr = [5, 1, 2, 0, 0, 4, 2, 0, 3]
+
+res =  maxWaterTrap(arr, len(arr))
+
+print(res)
+      

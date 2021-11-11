@@ -1,0 +1,23 @@
+n=int(input())
+list1=[]
+list2=[]
+
+for i in range(n):
+    x=int(input())
+    list1.append(x)
+    
+for j in range(n):
+    y=int(input())
+    list2.append(y)
+
+count=0
+sum=0
+
+for i in range(n):
+    if(list2[i]>2):
+        count+=1
+        sum+=list1[i]
+if(count > 0):
+    print(sum//count)
+else:
+    print(-1)

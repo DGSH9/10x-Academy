@@ -1,0 +1,9 @@
+k=int(input())
+n=int(input())
+lst = []
+for i in range(0, n):
+	ele = int(input())
+	lst.append(ele)	
+for j in range(len(lst)):
+    if(lst[j]==k):
+        print(j)

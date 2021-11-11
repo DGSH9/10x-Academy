@@ -1,0 +1,42 @@
+t = int(input())
+for i in range(t):
+    n = int(input())
+    ans=0
+    st = input()
+
+    arr = []
+    for i in range(0,n):
+        arr.append(0) 
+
+    brr= []
+    for i in range(0,n):
+        brr.append(0) 
+
+    left =0
+    right=0
+
+    for i in range(0,n):
+        if(st[i]=='1'):
+            left=i
+            break
+
+    for i in range(n-1,-1,-1):
+        if(st[i]=='1'):
+            right = i
+            break
+
+    for i in range(0,n):
+        if(st[i]=='1'):
+            left=i
+
+        arr[i]=abs(left-i)
+        tmp=n-i-1
+
+        if(st[tmp]=='1'):
+            right=tmp
+        brr[tmp]=abs(right-tmp)
+
+    for i in range(0,n):
+        ans +=min(arr[i],brr[i])
+
+    print("Case #{0}: {1}".format(t+1,ans))

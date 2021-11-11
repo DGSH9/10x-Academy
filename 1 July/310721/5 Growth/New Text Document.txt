@@ -1,0 +1,10 @@
+n = int(input())
+sum1=0
+for i in range(n):
+    x = int(input())
+    sum1+=x
+average =sum1/n
+if( average > 100):
+    print("Excellent!")
+else:
+    print("Not Excellent!")

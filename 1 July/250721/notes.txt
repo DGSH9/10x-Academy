@@ -1,0 +1,62 @@
+# Game
+# There are 4 games in an exhibition. Rock climbing, Dirt biking, Paint ball and Shooting.
+# 1. Rock climbing - 10 points
+# 2. Dirt biking - 30 points
+# 3. Paint ball - 50 points
+# 4. Shooting - 50 points
+# In the beginning user is given a card with certain number of points. User can play as many games as they want until all the points are used up.
+​
+# First input will be the number of points.
+# Write a program, that will take a choice from the user and update their points. For every choice user makes, it should print the following message.
+# You can play <game>. Your remaining points are <points>.
+# Or
+# You don't have sufficient points to play <game>. Your remaining points are <points>.
+# At the end it should print "You have used up all the points. Game ends now."
+​
+# First input will be the number of points.
+# This will be followed by user choices.
+​
+# 5
+# 2
+# You can play Dirt biking. Your remaining points are 2.
+# 4
+# You don't have sufficient points to play Shooting. Your remaining points are 2.
+# 1
+# You can play Rock climbing. Your remaining points are 1.
+# 1
+# You can play Rock climbing. Your remaining points are 0.
+# You have used up all the points. Game ends now.
+​
+currPoints = int(input())
+​
+while currPoints >= 10:
+    userChoice = int(input())
+    if userChoice == 1:
+        # Rock climbing - 10 points
+        if currPoints >= 10:
+            currPoints = currPoints - 10
+            print("You can play Rock Climbing. Your remaining points are " + str(currPoints))
+        else:
+            print("You don't have sufficient points to play Rock climbing. Your remaining points are " + str(currPoints))
+    elif userChoice == 2:
+        # Dirt biking - 30 points
+        if currPoints >= 30:
+            currPoints = currPoints - 30
+            print("You can play Dirt biking. Your remaining points are " + str(currPoints))
+        else:
+            print("You don't have sufficient points to play Dirt biking. Your remaining points are " + str(currPoints))
+    elif userChoice == 3:
+        # Paint ball - 50 points
+        if currPoints >= 50:
+            currPoints = currPoints - 50
+            print("You can play Paint ball. Your remaining points are " + str(currPoints))
+        else:
+            print("You don't have sufficient points to play Paint ball. Your remaining points are " + str(currPoints))
+    elif userChoice == 4:
+        # Shooting - 50 points
+        if currPoints >= 50:
+            currPoints = currPoints - 50
+            print("You can play Shooting. Your remaining points are " + str(currPoints))
+        else:
+            print("You don't have sufficient points to play Shooting. Your remaining points are " + str(currPoints))
+print("You have insufficient points. Game ends now.")

@@ -1,0 +1,9 @@
+n = int(input())
+st = input()
+at = input()
+x = "true"
+for i in st:
+    if i not in at:
+        x = "false"
+        break
+print(x)

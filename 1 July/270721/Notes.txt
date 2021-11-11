@@ -1,0 +1,4 @@
+Space separation of list
+
+
+print(*lst, sep=' ')   
