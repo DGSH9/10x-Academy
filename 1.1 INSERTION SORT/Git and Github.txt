@@ -1,0 +1,92 @@
+==>git config --global user.name DGSH9
+        (set your username)
+
+==>git config --global user.email durgeshyadav3107@gmail.com
+        (set your email)
+    
+==>git init
+        (initialise git empty repository)
+
+==>git status
+        (check status)
+
+==>git add -A
+        (add all file in staging area)
+
+==>git add index.html
+        (add single file in staging area)
+
+==>git commit
+        (commit changes to specified branch or master)
+
+==>git add -A
+        (add in staging area)
+
+==>git commit -m "this is my second commit 2"
+        (commit all changes without entering in vim editor)
+
+==>git checkout -f
+        (reundo with previous commit && its match with last commit)
+
+==>git log
+        (it will show all the commit)
+
+==>git log -p -1
+        (to show 1 commit)
+
+==>git diff
+        (compare with staging area and current directory)
+
+==>git diff --staged
+        (compare last commit with staging area)
+
+==>git commit -a -m "message skipped staging area"
+        (skipping staging area and direct commit)
+
+==>git rm --cached waste.html
+        (remove from staging area but present at hard disk)
+
+==>git rm waste.html
+        (remove permanentaly file)
+
+======================> learn git ingnore <================================
+
+======================> learn git ingnore <================================
+
+
+
+======================> creating  braches <================================
+
+==>git branch Assignment1
+        (to create a branch)
+
+==>git branch
+        (show how many branches are present)
+
+==>git checkout Assignment1
+        (switch to branch Assignment1 and u can start work here)
+
+==>git checkout master
+        (switched to your master branch)
+
+==>git merge Assignment1
+        (this command used to merge your Assignment1 with master branch)
+
+==>git checkout -b Assignment2
+        (it will create a new branch and change master branch to present one Assignment2)
+
+==>git remote add origin https://github.com/DGSH9/DEMO1.git
+        (connect git repository with remote repository(with github))
+
+==>git remote
+        (show all the remote repository which are connected)
+
+==>git remote -v
+        (show url from where to fetch and from where to push)
+
+==>git push origin master
+        (it will push to your master branch)
+
+==>git push -u origin master
+        (it will push to your master branch)
+
